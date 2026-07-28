@@ -1,0 +1,33 @@
+B3 (MORAP-NM) final run manifest — 2026-07-26 14:45:12
+==================================================
+
+file : pilot_fixed_run1.mat
+role : Fixed run reported in the paper (B3 ablation)
+md5  : 76646451286d64ac3a0dc1784a9acbfc
+cfg  : alfa_ini=0.1 beta_par=0.5 gamma_par=1 tol_stop=1e-08 tol_match=1e-08 max_fevals=20000 stop_alfa=1 stop_feval=1 spread_option=1 dnr_mode=identity list=5 n_vars=6 poll_variant=fixed
+out  : func_eval=4696 iter=15973 iter_suc=457 list=567
+
+file : pilot_fixed_run2.mat
+role : CC-DNR run reported in the paper (B3 ablation)
+md5  : f980fa9953cd527df32d3da350b86a7c
+cfg  : alfa_ini=0.1 beta_par=0.5 gamma_par=1 tol_stop=1e-08 tol_match=1e-08 max_fevals=20000 stop_alfa=1 stop_feval=1 spread_option=1 dnr_mode=covering_cycles list=5 n_vars=6 poll_variant=cc_dnr
+out  : func_eval=6168 iter=15583 iter_suc=551 list=577
+
+file : pilot_fixed_run3.mat
+role : Full run reported in the paper (B3 ablation)
+md5  : b2ab41ae809cd7c3060aa82aa5636a42
+cfg  : alfa_ini=0.1 beta_par=0.5 gamma_par=1 tol_stop=1e-08 tol_match=1e-08 max_fevals=20000 stop_alfa=1 stop_feval=1 spread_option=1 dnr_mode=covering_cycles list=5 n_vars=6 poll_variant=full
+out  : func_eval=6611 iter=16684 iter_suc=473 list=577
+
+file : b3b_results.mat
+role : B3b indexing-sensitivity experiment (res_fixed, res_ccdnr)
+md5  : 024d8d8433f47699bec5ad205acf4c67
+
+file : morap_nm_exact_front.csv
+role : Frozen exact front (578 decisions; MATLAB<->Python cross-validated)
+md5  : 46bd4567347a17c471adbdb9e8fc2127
+
+file : b3_anytime_curves.csv
+role : Anytime post-processing curves (common-budget checkpoint)
+md5  : d2a6163d32d58e01ae1951fa250031ad
+
