@@ -1,28 +1,40 @@
-# configurations — exact parameters of every reported run
+# configurations — the exact parameters of every reported run
 
 One parameter file per reported experiment. These are the files that pin the
 published numbers to a configuration.
 
-Expected contents:
+## Contents
 
-- continuous scale-invariance study: `parameters_dms.m` and
-  `parameters_dms_si.m`;
-- B2 ablation: `parameters_B2_fixed.m`, `parameters_B2_cc_static.m`,
-  `parameters_B2_cc_dnr.m`, `parameters_B2_full.m`;
-- MORAP-NM: `parameters_MORAP_fixed.m`, `parameters_MORAP_cc_dnr.m`,
-  `parameters_MORAP_full.m`.
+| File | Experiment |
+|---|---|
+| `parameters_dms.m` | continuous scale-invariance study, DMS baseline |
+| `parameters_dms_si.m` | continuous scale-invariance study, DMS-SI |
+| `parameters_dms_si_mix.m` | reference parameter file for the mixed-variable method, with the full field-by-field documentation of the two-space and DNR settings |
+| `parameters_B2_fixed.m` | categorical-neighborhood ablation, Fixed poll variant |
+| `parameters_B2_cc_static.m` | categorical-neighborhood ablation, CC-static control |
+| `parameters_B2_cc_dnr.m` | categorical-neighborhood ablation, CC-DNR |
+| `parameters_B2_full.m` | categorical-neighborhood ablation, Full |
+| `parameters_MORAP_fixed.m` | MORAP-NM study, Fixed |
+| `parameters_MORAP_cc_dnr.m` | MORAP-NM study, CC-DNR |
+| `parameters_MORAP_full.m` | MORAP-NM study, Full |
+| `b3_dnr_identity.mat` | stored categorical permutation schedule, identity mode |
+| `b3_dnr_covering_cycles.mat` | stored categorical permutation schedule, covering-cycles mode |
+| `b3_dnr_sobol_rank.mat` | stored categorical permutation schedule, Sobol-rank mode |
+| `b3_dnr_affine.mat` | stored categorical permutation schedule, affine mode |
 
-Two cautions, both of which have bitten before:
+The four schedule files correspond to the four categorical-schedule modes
+compared in the MORAP-NM study; the runs they produced are in
+`results/archives/morap_nm/dnr_run*.mat`.
 
-1. Each file is a snapshot of ONE step-size configuration. The continuous study
-   reports C1, C2 and the non-expansive regime; a single file records only one
-   of them. Either ship one file per configuration, or ship a driver that sets
-   (beta, gamma) explicitly, so that nobody reproduces a comparison in which the
-   two methods ran under different regimes.
-2. `nPini` is inert unless `user_list_size = 1`. With `user_list_size = 0` the
-   initial list size equals the problem dimension n, whatever value `nPini`
-   holds. Do not read `nPini` in isolation.
+## Two things to know when reading these files
 
-Check that each file's header names the file it actually is, and that the
-comment on `list` covers every value used (the released DMS header documents
-"0-4" but values 5 = Halton and 6 = Sobol are also in use).
+**Each file records one step-size configuration.** The continuous study
+reports configurations C1, C2 and the non-expansive regime; a single
+parameter file fixes one of them. The pair of step-size parameters in force
+is stated in the header of each file. When comparing two methods, check that
+both ran under the same regime.
+
+**`nPini` is inert unless `user_list_size = 1`.** With `user_list_size = 0`,
+which is the setting used throughout, the initial list size equals the
+problem dimension `n`, whatever value `nPini` holds. Reading `nPini` in
+isolation gives the wrong initial list size.
