@@ -19,7 +19,7 @@ import sys
 # ----------------------------------------------------------------------
 # Provenance of the reported runs. Fill these in before publishing.
 # ----------------------------------------------------------------------
-MATLAB_VERSION = "R2024b (PCWIN64)"
+MATLAB_VERSION = "R2025b (25.2.0.2998904), PCWIN64"
 CODE_REVISION = (
     "dms_si_mix.m, 101251 bytes, "
     "SHA-256 196babbe7d1e8aebc10f0b765b964881d878a538921b89a9c83112c31d1b9c04 "
