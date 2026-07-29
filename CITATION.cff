@@ -21,7 +21,7 @@ authors:
     affiliation: >-
       IDMEC-IST, Instituto Superior Tecnico, Universidade de Lisboa,
       Portugal; ISEL-IPL, Lisboa, Portugal
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: fill in
+    orcid: "https://orcid.org/0000-0001-9523-3808"
 license: CC-BY-4.0
 keywords:
   - derivative-free optimization
