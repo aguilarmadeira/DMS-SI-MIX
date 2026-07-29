@@ -1,0 +1,141 @@
+DMS-SI-Mix - Reproducibility Package
+Release version : 1.0.0
+MATLAB version  : TODO — type `version` in MATLAB and paste the release here, e.g. R2024b (PCWIN64)
+Code revision   : dms_si_mix.m, 101251 bytes, SHA-256 196babbe7d1e8aebc10f0b765b964881d878a538921b89a9c83112c31d1b9c04 (not included in v1.0.0; published in v1.1.0 — this hash identifies the exact solver revision that produced the reported runs)
+
+Integrity inventory. One line per file:
+    SHA-256   size(bytes)   path
+
+Verify a single file, e.g. on Linux/macOS:
+    sha256sum data/MORAP_NM/<file>
+or on Windows PowerShell:
+    Get-FileHash -Algorithm SHA256 data\MORAP_NM\<file>
+
+Files: 125   Total size: 41421616 bytes
+====================================================================================================
+
+aa2a3105160fe480094e8f2efff0f6274cf368ff7e040a4bbb8b2e57808cefb1           950  .gitignore                                              
+1c65aac099538047c30b54a913c638d3e9c433f7e16f6d31ff55ad7e5e006ed7          1628  B3_final_manifest.txt                                   
+788f54cecee8bb4aa67f5174ec53ab04e087ab8c63a965ca97962f16aa9688df          1260  CITATION.cff                                            
+d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744         17023  LICENSE                                                 
+536cd120e9c5764fcf560f23489c0f23d18cd9c4eb44df8c2b3785dda1e2a101          3906  README.md                                               
+fd7d4b5e9d0f1b66c3618a0419f4f21c8403483c7a2235c79941c90194939129          2864  b3_make_manifest.m                                      
+4decd80f1edd687d84864f8b5736a2c4fe0c45e2d14ebae6b8c9def257b008c6          1325  configurations/README.md                                
+77ebceaf12092ca78e423c26daf45d695abc319cac8a1b26e8d4c1cdf542d10e        167356  configurations/b3_dnr_covering_cycles.mat               
+37c29d209915e2715cf07a577ca4d53b914d9d8ddf2c291c1bbee31265390770        167356  configurations/b3_dnr_identity.mat                      
+698d0cfec3f1d0ffd95cb9c7b6623fdae67877706a1659d79001af1d8713eb77        167356  configurations/b3_dnr_sobol_rank.mat                    
+80d69b63107d3975d880b8b5f0e1603cfbc67bb4e944eb74cf39cbea2f0f0ec7          5548  configurations/parameters_dms.m                         
+12b9e4dd605f28480b7005c6a85f2bc370d88a1e13044c396686c98e48756439          5550  configurations/parameters_dms_si.m                      
+b841cc54832f9598ce9e668d8830a738d49a3edc4ea3e54306f4b35a6de163fa          8187  configurations/parameters_dms_si_mix.m                  
+f94f687bd519c83bca37e57fe154ee94c4c957e00bd6fc9eb46a3f21886cc009           680  data/B2/README.md                                       
+a2b37d727dafe7d9cc6c717109a49532a8ab7a68ddd4c264c0cce30769f80da8          4973  data/MORAP_NM/MORAP_NM_data_freeze.md                   
+c86d59d9bd21b56e402bd2538952f7eb3ffbeceeff69d8a5a4ede915cb785281          1547  data/MORAP_NM/README.md                                 
+60863cbd8bd9180284eb29fcbd297ccb20048d9ee42191c7ace74f61975f8338          3502  data/MORAP_NM/enumerate_morap_nm.m                      
+b43dda4c65f2da694ab7b1edcf0f54555e67a0c5f3225920d94fe41acb2cd422         10350  data/MORAP_NM/enumerate_pareto.m                        
+cd668cb13fa7e96e371dad4cef0e2ed9e0d6d9437e5a7008513be99550a0ca22          3368  data/MORAP_NM/morap_nm_data.m                           
+ede8095fa8c972f49ad9b61d2c5609d2120f9a2c48953963e33ba223437440ca         19719  data/MORAP_NM/morap_nm_exact_front.csv                  
+45a3de2af80d3fe3bb669481ae1c6f8602f521bdea4006772c0f72ecf0e0d79c          3310  make_manifest.py                                        
+407035e87285ce92340c350a82162a14c825e44e5ee12abb850eacb882e4f6fd           264  md5file.m                                               
+4fc15f478510cca3ce7903696e961b9dedfc67a6ab53e344400daf282e5c6d54          2851  results/archives/README.md                              
+39ddf185e3c4d0f75b53bfd0a7f56175c951d93ee3641c320f2bc4cd35b7f337        352177  results/archives/b2_default/b2_DPAM1_mix_cc_dnr.mat     
+fea890b49d5dc129e21175527b04d3f6133d3540cdc4a8bcc690e35bd6fd6234        275120  results/archives/b2_default/b2_DPAM1_mix_cc_static.mat  
+0db2e5592bbe4cab1cbaa6018d9110261b26be544d7b318f12b7b163c764c034        278588  results/archives/b2_default/b2_DPAM1_mix_fixed.mat      
+81a2e6894de9fe20a76694f1215d302ce44bb6530159b94961ad4b039fcaf6cb        443355  results/archives/b2_default/b2_DPAM1_mix_full.mat       
+69f07d19f92ff72ba01d5eea3ea742a4a3b8a55764388239e32bbf88a5b25815        731962  results/archives/b2_default/b2_DTLZ2_mix_cc_dnr.mat     
+b2c0edd7c964f8aedb1a98be04a16e762187c1ec2c3022d0b45f6b6db5ff475a        729074  results/archives/b2_default/b2_DTLZ2_mix_cc_static.mat  
+784d47a588bcf6412940aa09418140b185e208d223d43b8aa3bd42409c6142a0        693082  results/archives/b2_default/b2_DTLZ2_mix_fixed.mat      
+3d3b01551ea94590c34f59d81535c6987babab12ab8ef92ac57ac17ccfad821a        687611  results/archives/b2_default/b2_DTLZ2_mix_full.mat       
+378ad4f53ec5baa29203fcf35b96628823225ffd64ff6f300e4828b16eeb2a80        580671  results/archives/b2_default/b2_FES1_mix_cc_dnr.mat      
+4c93232a2ccdae997378807d548b46ec68c1cf075682a748a5e6953c603e6ed0        581920  results/archives/b2_default/b2_FES1_mix_cc_static.mat   
+9d7a3089261ae61a9f1c25c11ec99cf364aabcf67ac33fd1e0c862089df63327        522107  results/archives/b2_default/b2_FES1_mix_fixed.mat       
+3298fa72288cab692ae979f9ef2af0737295a11a72b05523c17fd77e8bbb9b4a        592561  results/archives/b2_default/b2_FES1_mix_full.mat        
+5cf5306e00e837585eb5e97d9a155ec06f413774def7fb86c51c6e28d0e9abac        564121  results/archives/b2_default/b2_QV1_mix_cc_dnr.mat       
+e00868c597c332578484389e2d45c4807a7ce997f43cb0840e11a15071de0514        568168  results/archives/b2_default/b2_QV1_mix_cc_static.mat    
+9bfa133b3f495552631d82f914f840fa11b3b98176b9ce95496c67eb1100532d        484817  results/archives/b2_default/b2_QV1_mix_fixed.mat        
+449cb24b724883ec73a9363edd4b3552e0b7a28fddf02a7fa08c82789d522a8d        560543  results/archives/b2_default/b2_QV1_mix_full.mat         
+fba781104e797339eca7630ee5cde98e7186f69a7cd50a062925e9108db96812        570386  results/archives/b2_default/b2_ZDT1_mix_cc_dnr.mat      
+30c960e4798014a3fed7acc67827ba776734aede8adc44cb0846e8801d64a808        561144  results/archives/b2_default/b2_ZDT1_mix_cc_static.mat   
+430dafe2877c28141763f87ffe8e01e9c1133faf8ca207e306dc0d0884e5b6d5        548318  results/archives/b2_default/b2_ZDT1_mix_fixed.mat       
+0dc41d4645b1343aaf0662a10966d8d3a301bba4191de0339b6a7b133dfaae5c        594394  results/archives/b2_default/b2_ZDT1_mix_full.mat        
+7c9b34c11a7e66816d297d16c2f1ed51d81b05bd377de95ac46eaf22432e849e        613048  results/archives/b2_default/b2_ZDT3_mix_cc_dnr.mat      
+cb06c314bf802b0215fa2f72e91773524d45922c1b16d2cbf5bebb98c28e9902        598782  results/archives/b2_default/b2_ZDT3_mix_cc_static.mat   
+c9e983fe67e6f253a0864da30eb42d912d0e675e2d5816ad1fa933d8db2bc0c0        591625  results/archives/b2_default/b2_ZDT3_mix_fixed.mat       
+286c872af9d669d11dcbcb8bcd56cb9a826557f5d07c66841075152835f3d626        570452  results/archives/b2_default/b2_ZDT3_mix_full.mat        
+2ee28356538bea405356337f2f837c0651799c7b01b833b68fe5a1dbc4b6fbc2        414548  results/archives/b2_halton200/b2_DPAM1_mix_cc_dnr.mat   
+6244d78d90c44c5672cae10a82a0b481c6f342714c7104462304f0c301874ea5        388720  results/archives/b2_halton200/b2_DPAM1_mix_cc_static.mat
+b1f17562c877a2aa6dc126c7beed116564cf86f073c957510b9fc43d8600eb86        438578  results/archives/b2_halton200/b2_DPAM1_mix_fixed.mat    
+8a525966e2de87482484170a7643279174ef2796452a783283620a33e3eccc28        464088  results/archives/b2_halton200/b2_DPAM1_mix_full.mat     
+13d876ad78ec8a4b3d3da9d6e4538cb3d7e8cc62421ffa66cf670a0d902182d7        720506  results/archives/b2_halton200/b2_DTLZ2_mix_cc_dnr.mat   
+a7099d35846edbfc5bab8f39ff2c6b8ffe47035ecc69fa8063f566e6647c59ee        720513  results/archives/b2_halton200/b2_DTLZ2_mix_cc_static.mat
+ded742d5a9c36cb50b2e03dd6d7a18a77dec5b9f313fddfc050e5502ee8304cb        689650  results/archives/b2_halton200/b2_DTLZ2_mix_fixed.mat    
+1324c65096f733700b52e0bbdc0a0ad68a7e3f613a8e34c78ae9ab0ac880edc7        704309  results/archives/b2_halton200/b2_DTLZ2_mix_full.mat     
+ae8ba3e7decf1ff3d6f167df8a057c97497ccc8e8fbcaeb68b60c5d988317138        590472  results/archives/b2_halton200/b2_FES1_mix_cc_dnr.mat    
+b5b54921b00c4cf706b2b39430053e2e2e14a1d11f5a890d43d67b9b92c47673        588201  results/archives/b2_halton200/b2_FES1_mix_cc_static.mat 
+b54f521cab64e41a5f5ed26512d5bfe5366fc1db6b4c3f938967bb736e85807b        546717  results/archives/b2_halton200/b2_FES1_mix_fixed.mat     
+fc0b35e6e3c4458e751c735390b42b6e729adb24b3c89b42d6abe3d47ff7ae08        596022  results/archives/b2_halton200/b2_FES1_mix_full.mat      
+b2b5d8fb082bea6a4e131931acab1927eb0cba156e6af1d0b0bad8b0eddaf851        715908  results/archives/b2_halton200/b2_QV1_mix_cc_dnr.mat     
+cffc4697acaafe3a4db7bc1028952f39e563a2307274ca769fb0884dbd72b67a        560917  results/archives/b2_halton200/b2_QV1_mix_cc_static.mat  
+5f6d5ede19908b723436cd6cade08a83a6758d96d793a4244fcd420dbf01a3a6        565283  results/archives/b2_halton200/b2_QV1_mix_fixed.mat      
+205ae777623070948d6aa5aab11600e7dc6ba7587fe068bdd9830e4706cf455e        567300  results/archives/b2_halton200/b2_QV1_mix_full.mat       
+b9a12d9a19f45ad6ce2d82cf6d6ed182ddac05ebcf99d0e1df2a6bd3b6c8a408        641928  results/archives/b2_halton200/b2_ZDT1_mix_cc_dnr.mat    
+7e99e56b23bd61fc47ff8c49ed6519fe2cae828bbb5d2ef1ced05b11e1f7bb53        641936  results/archives/b2_halton200/b2_ZDT1_mix_cc_static.mat 
+d110efd375efaedb7ecbafeba894363fc8ef44afe1d3bf26ca699279e190f244        618248  results/archives/b2_halton200/b2_ZDT1_mix_fixed.mat     
+111602122721721147a935a8950cc52630e205570811dbbb794134c72d3e0beb        597692  results/archives/b2_halton200/b2_ZDT1_mix_full.mat      
+5a52b4b3e118f0216a7d69e2037cf5b478f1e493937a4ec9f6b34498d032e5cd        578082  results/archives/b2_halton200/b2_ZDT3_mix_cc_dnr.mat    
+cf9b0efdcfd082ebf4b828337d547f07c2c3f911eefa058d9464da05fd730ded        561553  results/archives/b2_halton200/b2_ZDT3_mix_cc_static.mat 
+13f21ea48416d82a6a0b28ca6a2688b8a5043c05a36f07044f6e9df5227c06f4        567206  results/archives/b2_halton200/b2_ZDT3_mix_fixed.mat     
+8d965c0148ca03cb4a83cbea553bc8e12c14e97a95a3f9bdcce93008e87e1c60        588903  results/archives/b2_halton200/b2_ZDT3_mix_full.mat      
+d7c0a49f5da412c7d1aa037f28781d48a4246d4baeea27945bf1b73d202c9515        259924  results/archives/b2_sobol50/b2_DPAM1_mix_cc_dnr.mat     
+1ed7b7536c0545b37ef4cb0667bbe694ed0c0c03784f42b3cac4b8ba178d72bc        172972  results/archives/b2_sobol50/b2_DPAM1_mix_cc_static.mat  
+9474059fe201df2e67b6ba878927ebaf15a5657124ee4ef7bc41fb4cff99ac29        396199  results/archives/b2_sobol50/b2_DPAM1_mix_fixed.mat      
+186f9e402d7878add78168cb6ed92eb81247ea0919ca797e72816b98944830c1        453765  results/archives/b2_sobol50/b2_DPAM1_mix_full.mat       
+a05a4fc1c70f781f3582d9960de72cbb423d25fbedc2b41deda1729c435958b9        680922  results/archives/b2_sobol50/b2_DTLZ2_mix_cc_dnr.mat     
+1945c70476b4a023e8cbd26e468806fae1c546d0d6ac04ac57a1dad4e7e9d81f        680926  results/archives/b2_sobol50/b2_DTLZ2_mix_cc_static.mat  
+2aa12e751bf6fbb3591d9ba84c8fd2ca67045f1be3db3a32404803d34358efd2        692296  results/archives/b2_sobol50/b2_DTLZ2_mix_fixed.mat      
+446718cdc56093651eabbf7c8ccfc485e009108934b09a0c1de92cc55e7d9ccf        684307  results/archives/b2_sobol50/b2_DTLZ2_mix_full.mat       
+d70cdb8fd3ba7f31755883a01ab0c135cdf0b747bee8df34fcd9cb8cbb8d8dab        547451  results/archives/b2_sobol50/b2_FES1_mix_cc_dnr.mat      
+7f4de07639c2802a8bd85c048bc30c18387230356e0a1894b0229590895768a2        529732  results/archives/b2_sobol50/b2_FES1_mix_cc_static.mat   
+1a32e447de44eaec5823703789b768adaaeb0e22f56cd4913eee3b982baaf130        513143  results/archives/b2_sobol50/b2_FES1_mix_fixed.mat       
+351fad7363825113a76cf7cc94bfaf09e54a1ec5bd4676ee11fae09108b11b84        598760  results/archives/b2_sobol50/b2_FES1_mix_full.mat        
+4f52b4f1267d078be9a164836e73639e28196b853ab7a390fca6c9e6d1de794d        530818  results/archives/b2_sobol50/b2_QV1_mix_cc_dnr.mat       
+4ffdda4cf3a2cdc34a9185c04b742d07ae4ca269a25d27930956874193740785        526061  results/archives/b2_sobol50/b2_QV1_mix_cc_static.mat    
+2f56bb7be20d694569bc10e2cc43ba1252ad72c2f4848283919b2dc58eb1d1fc        519144  results/archives/b2_sobol50/b2_QV1_mix_fixed.mat        
+8aefff9acdefb0d764246bc0a68c60925080191562e87d2cf6974ef1168c2345        557889  results/archives/b2_sobol50/b2_QV1_mix_full.mat         
+d71c02ac61ee1586510a22e82bf4d6a369da59f615744988a04a9790c1d02dc9        515405  results/archives/b2_sobol50/b2_ZDT1_mix_cc_dnr.mat      
+19b7179fbba2517a5cc3d3529d528f8a4a603e0ebd67c6db6ce9ccfa408cbdc7        502409  results/archives/b2_sobol50/b2_ZDT1_mix_cc_static.mat   
+57d3b3527fd714d770c269ee20d39532356467036c5f7b9433aa435174476e86        483576  results/archives/b2_sobol50/b2_ZDT1_mix_fixed.mat       
+f4da26b114fa480905ac7ed8f3910268548311758c9bb668330f2fe5bfab31e7        486740  results/archives/b2_sobol50/b2_ZDT1_mix_full.mat        
+bb65472b0db0f099980d1d1cd7e85bf07171379765e2ae8c235f93694bbd3db4        489456  results/archives/b2_sobol50/b2_ZDT3_mix_cc_dnr.mat      
+a3fa4f1d8094903382ac93b6edecc4688340b1ebe3dd4f519ce0674f8bc419cb        491817  results/archives/b2_sobol50/b2_ZDT3_mix_cc_static.mat   
+e42a5128ab3f5e60e6bd13e90d85ecd6955ee3f4d265197b3b6c77cae384f81a        487197  results/archives/b2_sobol50/b2_ZDT3_mix_fixed.mat       
+4700fc551cfc6657b826c82c4a2695f7982d3be9851e3ffab03bc9af79552384        464845  results/archives/b2_sobol50/b2_ZDT3_mix_full.mat        
+b7c40cd0ecbe898bccbfd5355eb4e335bc4941d480278047884d6df3e32d714d           995  results/archives/morap_nm/b3b_results.mat               
+4a851f6c03110d7c004972c0657b3ce10aec3d6c57e775a0844247c0f7e9bf2f        137900  results/archives/morap_nm/dnr_run1_identity.mat         
+ab8ef500f034da6950ed26042ad790bd68a92aea419bb4179fe161c228ad3547        167556  results/archives/morap_nm/dnr_run2_covering.mat         
+42da3fe2943cd7f5a4b8f7a10fc5022547a28059a62f0fdd571898e078d59399        161912  results/archives/morap_nm/dnr_run3_sobol.mat            
+89ded3b8a75d18aa8cec2f2ccd6c21fed5661208e2617800ffb1f3a8fcf94734        166044  results/archives/morap_nm/dnr_run4_affine.mat           
+0986d55bd253f59e40d7e9ab2c10df08d3405d28899f9ccc08cf5ae64ac71b1b        140906  results/archives/morap_nm/pilot_fixed_run1.mat          
+c48bf0838a1e238e05994d1bbfa59881f2aa1321e9f42bc8326697007d4fc5ad        167659  results/archives/morap_nm/pilot_fixed_run2.mat          
+da5828e49e3ea417c6970daad80d03c5634eb17dea11474df53c8e149beb8631        173831  results/archives/morap_nm/pilot_fixed_run3.mat          
+b380e7338f18408684365c9b5cdda29c70c842a860c225075a19f462bd815a19          1748  results/logs/README.md                                  
+a6698e4e40d59c8795f7b148f0c388d65240a18fe638814781022cfd380f8908           920  results/metrics/README.md                               
+b216a9e05ffd9d5a90579c71ae443cd1344cd254355bb46b4d2807755491ce9d           607  results/metrics/b2_decomposition.csv                    
+48ee867f4a9b4ab33607dd2f71c456bda389c3d5fad5c58b669ed209591ac864          5221  results/metrics/b2_effect_decomposition.m               
+3e3a3c04a967764b8c4697522d062c4fe58d78eed5d4431e56e2d79efc280464          2096  results/metrics/b2_init_sensitivity.csv                 
+c89d476e24375b9647723986023a79998a624705cf9d41cb10cb895c10ebf043          6628  results/metrics/b2_init_sensitivity.m                   
+592dec3a139514979b48f23146dd0add35573fdffb0b5f2e76dc5893add47682          3974  results/metrics/b2_metrics.m                            
+197f8d00d81efa43b91c918a26474825df737361ca29001c4022456c2b05a762          3954  results/metrics/b2_rotation_diagnostics.m               
+d59f6851abc60f834db591c80396c0c2a29df08a28df1d3e94f3ba5d8181009e          1654  results/metrics/b2_summary.csv                          
+4f7cdb2b3b31e388475c70bace8f9882e068efd7e9481012c76e02600f75b6e1          7555  results/metrics/b3_anytime_curves.csv                   
+edab5126d9d7845dbc8ed51b0102703d51acfbe1932e049dab47d390598215bd          7972  results/metrics/b3_anytime_morap_nm.m                   
+e61cef5566711d6f152dde9b844b587ec6386ad662cf62e4f9afddc142f3a869          3532  results/metrics/b3a_conformity_morap_nm.m               
+437463ec65cb3b263a0acd2f655833968563a5a0cd002c364c46492c808d783a          3387  results/metrics/b3b_indexing_morap_nm.m                 
+66603d773d49c744c917572905d986207520fef56a416a1880917d9051b6657d          3055  results/metrics/front_matching.m                        
+6692bba2a462da9ec59a97dafd10e5290aa7cede74adb1fb141bd74822972d44          2477  results/metrics/hypervolume_exact.m                     
+98b5d58f41430ab5356d79d944afef3a35578475756d311a665fcb42e9f682b9          2439  results/metrics/metrics_objective.m                     
+3118942b162da5bf2e6228c0aab8eab43eb01516b7153454f2e5b176036f8c79          7450  results/metrics/morap_common_reference_metrics.m        
+3ee1f86996119c30c82cf63c222b1832afef25ae2424d1850a6817c98ee4bcb7          1790  results/metrics/paretodominance.m                       
+ca5d666d5410d86b9427988564ddab8facf12ec830123b1684bead90fd12124b          5468  results/metrics/pilot_metrics_morap_nm.m                
+3849ebe5ff56504954278d97fb8f48b106e3f1c3b477dfca117e317e38c90fd1          1963  results/metrics/ref_front_analytical.m                  
+dc1589d375e724d93173ab5dab3ebfb23f1a5c1f4a4333db54d756cc5b83e54a          2662  supplementary/INDEX.md                                  
+1b4ead00ea4ebe28eac842448e93e05afa9eb397634dee1ab139ceb71793cd7e           328  supplementary/README.md                                 

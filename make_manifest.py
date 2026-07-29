@@ -19,8 +19,13 @@ import sys
 # ----------------------------------------------------------------------
 # Provenance of the reported runs. Fill these in before publishing.
 # ----------------------------------------------------------------------
-MATLAB_VERSION = "TODO e.g. R2024b"
-CODE_REVISION = "TODO commit hash or internal revision of dms_si_mix.m used for the reported runs"
+MATLAB_VERSION = "TODO — type `version` in MATLAB and paste the release here, e.g. R2024b (PCWIN64)"
+CODE_REVISION = (
+    "dms_si_mix.m, 101251 bytes, "
+    "SHA-256 196babbe7d1e8aebc10f0b765b964881d878a538921b89a9c83112c31d1b9c04 "
+    "(not included in v1.0.0; published in v1.1.0 — this hash identifies the exact "
+    "solver revision that produced the reported runs)"
+)
 RELEASE_VERSION = "1.0.0"
 
 SKIP_DIRS = {".git", ".github", "__pycache__", ".ipynb_checkpoints"}
