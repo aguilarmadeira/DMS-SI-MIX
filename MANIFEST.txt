@@ -1,6 +1,6 @@
 DMS-SI-Mix - Reproducibility Package
 Release version : 1.0.0
-MATLAB version  : TODO — type `version` in MATLAB and paste the release here, e.g. R2024b (PCWIN64)
+MATLAB version  : R2025b (25.2.0.2998904), PCWIN64
 Code revision   : dms_si_mix.m, 101251 bytes, SHA-256 196babbe7d1e8aebc10f0b765b964881d878a538921b89a9c83112c31d1b9c04 (not included in v1.0.0; published in v1.1.0 — this hash identifies the exact solver revision that produced the reported runs)
 
 Integrity inventory. One line per file:
@@ -11,7 +11,7 @@ Verify a single file, e.g. on Linux/macOS:
 or on Windows PowerShell:
     Get-FileHash -Algorithm SHA256 data\MORAP_NM\<file>
 
-Files: 125   Total size: 41421616 bytes
+Files: 125   Total size: 41421565 bytes
 ====================================================================================================
 
 aa2a3105160fe480094e8f2efff0f6274cf368ff7e040a4bbb8b2e57808cefb1           950  .gitignore                                              
@@ -34,7 +34,7 @@ c86d59d9bd21b56e402bd2538952f7eb3ffbeceeff69d8a5a4ede915cb785281          1547  
 b43dda4c65f2da694ab7b1edcf0f54555e67a0c5f3225920d94fe41acb2cd422         10350  data/MORAP_NM/enumerate_pareto.m                        
 cd668cb13fa7e96e371dad4cef0e2ed9e0d6d9437e5a7008513be99550a0ca22          3368  data/MORAP_NM/morap_nm_data.m                           
 ede8095fa8c972f49ad9b61d2c5609d2120f9a2c48953963e33ba223437440ca         19719  data/MORAP_NM/morap_nm_exact_front.csv                  
-45a3de2af80d3fe3bb669481ae1c6f8602f521bdea4006772c0f72ecf0e0d79c          3310  make_manifest.py                                        
+b6ebdd1b9b65c6a334632bbabac6d3be0edf49086d3eff89b28bcc457b3f6cec          3259  make_manifest.py                                        
 407035e87285ce92340c350a82162a14c825e44e5ee12abb850eacb882e4f6fd           264  md5file.m                                               
 4fc15f478510cca3ce7903696e961b9dedfc67a6ab53e344400daf282e5c6d54          2851  results/archives/README.md                              
 39ddf185e3c4d0f75b53bfd0a7f56175c951d93ee3641c320f2bc4cd35b7f337        352177  results/archives/b2_default/b2_DPAM1_mix_cc_dnr.mat     
