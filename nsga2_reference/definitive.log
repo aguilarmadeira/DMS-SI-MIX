@@ -1,0 +1,205 @@
+=== INICIO 2026-07-30T21:13:36Z ===
+--- rand pop=100 30 sementes | inicio 21:13:36Z ---
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=rand
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop= 100 seed= 1 distintas= 20009 raw=   95600 hits=   75591
+  pop= 100 seed= 2 distintas= 20004 raw=   90000 hits=   69996
+  pop= 100 seed= 3 distintas= 20002 raw=   91400 hits=   71398
+  pop= 100 seed= 4 distintas= 20010 raw=   97500 hits=   77490
+  pop= 100 seed= 5 distintas= 20002 raw=   97400 hits=   77398
+  pop= 100 seed= 6 distintas= 20002 raw=   86100 hits=   66098
+  pop= 100 seed= 7 distintas= 20005 raw=   98200 hits=   78195
+  pop= 100 seed= 8 distintas= 20001 raw=   99100 hits=   79099
+  pop= 100 seed= 9 distintas= 20000 raw=   95699 hits=   75699
+  pop= 100 seed=10 distintas= 20004 raw=   88100 hits=   68096
+  pop= 100 seed=11 distintas= 20000 raw=   83500 hits=   63500
+  pop= 100 seed=12 distintas= 20009 raw=  112400 hits=   92391
+  pop= 100 seed=13 distintas= 20004 raw=   93000 hits=   72996
+  pop= 100 seed=14 distintas= 20008 raw=   95800 hits=   75792
+  pop= 100 seed=15 distintas= 20003 raw=   95300 hits=   75297
+  pop= 100 seed=16 distintas= 20002 raw=   87600 hits=   67598
+  pop= 100 seed=17 distintas= 20003 raw=  102500 hits=   82497
+  pop= 100 seed=18 distintas= 20000 raw=   92800 hits=   72800
+  pop= 100 seed=19 distintas= 20010 raw=   95300 hits=   75290
+  pop= 100 seed=20 distintas= 20005 raw=   88100 hits=   68095
+  pop= 100 seed=21 distintas= 20007 raw=   91400 hits=   71393
+  pop= 100 seed=22 distintas= 20006 raw=   91600 hits=   71594
+  pop= 100 seed=23 distintas= 20003 raw=  103400 hits=   83397
+  pop= 100 seed=24 distintas= 20005 raw=   97300 hits=   77295
+  pop= 100 seed=25 distintas= 20000 raw=  102100 hits=   82100
+  pop= 100 seed=26 distintas= 20000 raw=   92700 hits=   72700
+  pop= 100 seed=27 distintas= 20001 raw=   96000 hits=   75999
+  pop= 100 seed=28 distintas= 20001 raw=   95100 hits=   75099
+  pop= 100 seed=29 distintas= 20003 raw=   96900 hits=   76897
+  pop= 100 seed=30 distintas= 20005 raw=  102800 hits=   82795
+-> results_rand_100.csv, curves_rand_100.json
+--- rand pop=100 concluido 21:22:41Z ---
+--- rand pop=200 30 sementes | inicio 21:22:41Z ---
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=rand
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop= 200 seed= 1 distintas= 20001 raw=   65000 hits=   44999
+  pop= 200 seed= 2 distintas= 20010 raw=   64000 hits=   43990
+  pop= 200 seed= 3 distintas= 20006 raw=   70600 hits=   50594
+  pop= 200 seed= 4 distintas= 20005 raw=   67199 hits=   47194
+  pop= 200 seed= 5 distintas= 20004 raw=   66000 hits=   45996
+  pop= 200 seed= 6 distintas= 20001 raw=   62598 hits=   42597
+  pop= 200 seed= 7 distintas= 20004 raw=   64400 hits=   44396
+  pop= 200 seed= 8 distintas= 20006 raw=   63199 hits=   43193
+  pop= 200 seed= 9 distintas= 20001 raw=   68998 hits=   48997
+  pop= 200 seed=10 distintas= 20002 raw=   62799 hits=   42797
+  pop= 200 seed=11 distintas= 20005 raw=   65400 hits=   45395
+  pop= 200 seed=12 distintas= 20004 raw=   64799 hits=   44795
+  pop= 200 seed=13 distintas= 20016 raw=   68200 hits=   48184
+  pop= 200 seed=14 distintas= 20006 raw=   63600 hits=   43594
+  pop= 200 seed=15 distintas= 20012 raw=   64800 hits=   44788
+  pop= 200 seed=16 distintas= 20008 raw=   63199 hits=   43191
+  pop= 200 seed=17 distintas= 20008 raw=   64199 hits=   44191
+  pop= 200 seed=18 distintas= 20020 raw=   64600 hits=   44580
+  pop= 200 seed=19 distintas= 20009 raw=   69399 hits=   49390
+  pop= 200 seed=20 distintas= 20010 raw=   69998 hits=   49988
+  pop= 200 seed=21 distintas= 20015 raw=   67599 hits=   47584
+  pop= 200 seed=22 distintas= 20019 raw=   64999 hits=   44980
+  pop= 200 seed=23 distintas= 20008 raw=   67399 hits=   47391
+  pop= 200 seed=24 distintas= 20019 raw=   67798 hits=   47779
+  pop= 200 seed=25 distintas= 20015 raw=   62799 hits=   42784
+  pop= 200 seed=26 distintas= 20012 raw=   65199 hits=   45187
+  pop= 200 seed=27 distintas= 20002 raw=   64798 hits=   44796
+  pop= 200 seed=28 distintas= 20027 raw=   66000 hits=   45973
+  pop= 200 seed=29 distintas= 20012 raw=   66000 hits=   45988
+  pop= 200 seed=30 distintas= 20027 raw=   61999 hits=   41972
+-> results_rand_200.csv, curves_rand_200.json
+--- rand pop=200 concluido 21:31:20Z ---
+--- rand pop=600 30 sementes | inicio 21:31:20Z ---
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=rand
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop= 600 seed= 1 distintas= 20037 raw=   44995 hits=   24958
+  pop= 600 seed= 2 distintas= 20020 raw=   44391 hits=   24371
+  pop= 600 seed= 3 distintas= 20028 raw=   46197 hits=   26169
+  pop= 600 seed= 4 distintas= 20041 raw=   45595 hits=   25554
+  pop= 600 seed= 5 distintas= 20120 raw=   45594 hits=   25474
+  pop= 600 seed= 6 distintas= 20062 raw=   45596 hits=   25534
+  pop= 600 seed= 7 distintas= 20017 raw=   44986 hits=   24969
+  pop= 600 seed= 8 distintas= 20007 raw=   44395 hits=   24388
+  pop= 600 seed= 9 distintas= 20088 raw=   45592 hits=   25504
+  pop= 600 seed=10 distintas= 20028 raw=   44998 hits=   24970
+  pop= 600 seed=11 distintas= 20021 raw=   45596 hits=   25575
+  pop= 600 seed=12 distintas= 20098 raw=   46197 hits=   26099
+  pop= 600 seed=13 distintas= 20077 raw=   44997 hits=   24920
+  pop= 600 seed=14 distintas= 20097 raw=   44391 hits=   24294
+  pop= 600 seed=15 distintas= 20000 raw=   44994 hits=   24994
+  pop= 600 seed=16 distintas= 20115 raw=   44993 hits=   24878
+  pop= 600 seed=17 distintas= 20045 raw=   44997 hits=   24952
+  pop= 600 seed=18 distintas= 20064 raw=   45596 hits=   25532
+  pop= 600 seed=19 distintas= 20070 raw=   45591 hits=   25521
+  pop= 600 seed=20 distintas= 20092 raw=   44989 hits=   24897
+  pop= 600 seed=21 distintas= 20056 raw=   46196 hits=   26140
+  pop= 600 seed=22 distintas= 20113 raw=   45595 hits=   25482
+  pop= 600 seed=23 distintas= 20097 raw=   44996 hits=   24899
+  pop= 600 seed=24 distintas= 20010 raw=   44395 hits=   24385
+  pop= 600 seed=25 distintas= 20038 raw=   44392 hits=   24354
+  pop= 600 seed=26 distintas= 20051 raw=   44993 hits=   24942
+  pop= 600 seed=27 distintas= 20082 raw=   45595 hits=   25513
+  pop= 600 seed=28 distintas= 20075 raw=   46797 hits=   26722
+  pop= 600 seed=29 distintas= 20079 raw=   45597 hits=   25518
+  pop= 600 seed=30 distintas= 20016 raw=   44992 hits=   24976
+-> results_rand_600.csv, curves_rand_600.json
+--- rand pop=600 concluido 21:44:54Z ---
+--- rand pop=50 30 sementes | inicio 21:44:54Z ---
+hv_reference.json verificado (inalterado)
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=rand
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop=  50 seed= 1 distintas= 20000 raw=  159000 hits=  139000
+  pop=  50 seed= 2 distintas= 20000 raw=  177700 hits=  157700
+  pop=  50 seed= 3 distintas= 20002 raw=  155400 hits=  135398
+  pop=  50 seed= 4 distintas= 20003 raw=  147950 hits=  127947
+  pop=  50 seed= 5 distintas= 20002 raw=  166300 hits=  146298
+  pop=  50 seed= 6 distintas= 20000 raw=  186850 hits=  166850
+  pop=  50 seed= 7 distintas= 20000 raw=  170600 hits=  150600
+  pop=  50 seed= 8 distintas= 20001 raw=  181700 hits=  161699
+  pop=  50 seed= 9 distintas= 20001 raw=  168050 hits=  148049
+  pop=  50 seed=10 distintas= 20000 raw=  180450 hits=  160450
+  pop=  50 seed=11 distintas= 20000 raw=  202950 hits=  182950
+  pop=  50 seed=12 distintas= 20001 raw=  146050 hits=  126049
+  pop=  50 seed=13 distintas= 20000 raw=  172950 hits=  152950
+  pop=  50 seed=14 distintas= 20000 raw=  160650 hits=  140650
+  pop=  50 seed=15 distintas= 20000 raw=  165500 hits=  145500
+  pop=  50 seed=16 distintas= 20001 raw=  155050 hits=  135049
+  pop=  50 seed=17 distintas= 20000 raw=  181050 hits=  161050
+  pop=  50 seed=18 distintas= 20008 raw=  167400 hits=  147392
+  pop=  50 seed=19 distintas= 20000 raw=  140800 hits=  120800
+  pop=  50 seed=20 distintas= 20004 raw=  148500 hits=  128496
+  pop=  50 seed=21 distintas= 20002 raw=  147500 hits=  127498
+  pop=  50 seed=22 distintas= 20000 raw=  177400 hits=  157400
+  pop=  50 seed=23 distintas= 20001 raw=  147850 hits=  127849
+  pop=  50 seed=24 distintas= 20003 raw=  134500 hits=  114497
+  pop=  50 seed=25 distintas= 20000 raw=  150900 hits=  130900
+  pop=  50 seed=26 distintas= 20000 raw=  155100 hits=  135100
+  pop=  50 seed=27 distintas= 20000 raw=  152850 hits=  132850
+  pop=  50 seed=28 distintas= 20000 raw=  187350 hits=  167350
+  pop=  50 seed=29 distintas= 20001 raw=  176400 hits=  156399
+  pop=  50 seed=30 distintas= 20001 raw=  175150 hits=  155149
+-> results_rand_50.csv, curves_rand_50.json
+--- rand pop=50 concluido 21:59:08Z ---
+--- halton pop=50 30 sementes | inicio 21:59:08Z ---
+hv_reference.json verificado (inalterado)
+desenho inicial: {'requested_initial_size': 50, 'actual_initial_size': 50, 'unique_initial_decisions': 50, 'initial_duplicates_skipped': 0, 'halton_indices_consumed': 50, 'pop': 50}
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=halton
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop=  50 seed= 1 distintas= 20001 raw=  180850 hits=  160849
+  pop=  50 seed= 2 distintas= 20001 raw=  180350 hits=  160349
+  pop=  50 seed= 3 distintas= 20000 raw=  149350 hits=  129350
+  pop=  50 seed= 4 distintas= 20002 raw=  197250 hits=  177248
+  pop=  50 seed= 5 distintas= 20000 raw=  156800 hits=  136800
+  pop=  50 seed= 6 distintas= 20003 raw=  162500 hits=  142497
+  pop=  50 seed= 7 distintas= 20000 raw=  150150 hits=  130150
+  pop=  50 seed= 8 distintas= 20000 raw=  190200 hits=  170200
+  pop=  50 seed= 9 distintas= 20000 raw=  174000 hits=  154000
+  pop=  50 seed=10 distintas= 20000 raw=  162250 hits=  142250
+  pop=  50 seed=11 distintas= 20001 raw=  199300 hits=  179299
+  pop=  50 seed=12 distintas= 20009 raw=  167400 hits=  147391
+  pop=  50 seed=13 distintas= 20000 raw=  168300 hits=  148300
+  pop=  50 seed=14 distintas= 20000 raw=  154650 hits=  134650
+  pop=  50 seed=15 distintas= 20001 raw=  173150 hits=  153149
+  pop=  50 seed=16 distintas= 20003 raw=  151600 hits=  131597
+=== RETOMA 2026-07-31T07:52:15Z ===
+--- paired pop=50 | inicio 07:52:15Z ---
+hv_reference.json verificado (inalterado)
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=paired
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  retoma: 8 sementes ja feitas em results_paired_50.csv
+  pop=  50 seed= 9 distintas= 20001 raw=  168050 hits=  148049
+  pop=  50 seed=10 distintas= 20000 raw=  180450 hits=  160450
+  pop=  50 seed=11 distintas= 20000 raw=  202950 hits=  182950
+  pop=  50 seed=12 distintas= 20001 raw=  146050 hits=  126049
+  pop=  50 seed=13 distintas= 20000 raw=  172950 hits=  152950
+  pop=  50 seed=14 distintas= 20000 raw=  160650 hits=  140650
+  pop=  50 seed=15 distintas= 20000 raw=  165500 hits=  145500
+  pop=  50 seed=16 distintas= 20001 raw=  155050 hits=  135049
+  pop=  50 seed=17 distintas= 20000 raw=  181050 hits=  161050
+  pop=  50 seed=18 distintas= 20008 raw=  167400 hits=  147392
+  pop=  50 seed=19 distintas= 20000 raw=  140800 hits=  120800
+  pop=  50 seed=20 distintas= 20004 raw=  148500 hits=  128496
+  pop=  50 seed=21 distintas= 20002 raw=  147500 hits=  127498
+  pop=  50 seed=22 distintas= 20000 raw=  177400 hits=  157400
+  pop=  50 seed=23 distintas= 20001 raw=  147850 hits=  127849
+  pop=  50 seed=24 distintas= 20003 raw=  134500 hits=  114497
+  pop=  50 seed=25 distintas= 20000 raw=  150900 hits=  130900
+  pop=  50 seed=26 distintas= 20000 raw=  155100 hits=  135100
+  pop=  50 seed=27 distintas= 20000 raw=  152850 hits=  132850
+  pop=  50 seed=28 distintas= 20000 raw=  187350 hits=  167350
+  pop=  50 seed=29 distintas= 20001 raw=  176400 hits=  156399
+  pop=  50 seed=30 distintas= 20001 raw=  175150 hits=  155149
+-> results_paired_50.csv, curves_paired_50.jsonl
+--- paired pop=50 concluido 08:04:27Z ---
+--- paired pop=100 | inicio 08:04:27Z ---
+hv_reference.json verificado (inalterado)
+ref HV [  0.7286 238.1    160.8   ] | HV* 24193.8 | init=paired
+pymoo 0.6.2 | espaço 34300 | frente exata 578
+  pop= 100 seed= 1 distintas= 20009 raw=   95600 hits=   75591
+  pop= 100 seed= 2 distintas= 20004 raw=   90000 hits=   69996
+  pop= 100 seed= 3 distintas= 20002 raw=   91400 hits=   71398
+  pop= 100 seed= 4 distintas= 20010 raw=   97500 hits=   77490
+  pop= 100 seed= 5 distintas= 20002 raw=   97400 hits=   77398
+  pop= 100 seed= 6 distintas= 20002 raw=   86100 hits=   66098
+  pop= 100 seed= 7 distintas= 20005 raw=   98200 hits=   78195
+  pop= 100 seed= 8 distintas= 20001 raw=   99100 hits=   79099

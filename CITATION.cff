@@ -4,16 +4,30 @@ message: >-
   release. If you refer to the method itself, please cite the
   accompanying article.
 title: "DMS-SI-Mix: Reproducibility Package"
-version: 1.0.0
+version: 1.1.0
+date-released: "2026-08-01"
 type: dataset
+doi: 10.5281/zenodo.21671272
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21671272
+    description: Concept DOI, resolves to the latest version
+  - type: doi
+    value: 10.5281/zenodo.21671273
+    description: Version DOI of release 1.0.0
+repository-code: "https://github.com/aguilarmadeira/DMS-SI-MIX"
 abstract: >-
   Reproducibility package for the two-space scale-invariant Direct
-  Multisearch method DMS-SI-Mix. Version 1.0.0 contains the data,
+  Multisearch method DMS-SI-Mix. Version 1.1.0 contains the data,
   configurations, run logs, final archives, metric tables, and
   validation scripts supporting the reported experiments, including
   the MORAP-NM exact Pareto front with integrity hashes and the
-  categorical-neighborhood ablation. It does NOT yet contain the
-  MATLAB solver, which is added in version 1.1.0.
+  categorical-neighborhood ablation, together with the external
+  mixed-variable NSGA-II reference point on MORAP-NM (nine
+  configurations, 30 seeds each, with its harness, aggregation and
+  integrity-audit scripts). It does NOT yet contain the MATLAB
+  solver, which is added in version 2.0.0 on acceptance of the
+  accompanying article.
 authors:
   - family-names: Madeira
     given-names: J. F. A.

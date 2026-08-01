@@ -1,0 +1,8 @@
+{
+  "requested_initial_size": 100,
+  "actual_initial_size": 100,
+  "unique_initial_decisions": 100,
+  "initial_duplicates_skipped": 0,
+  "halton_indices_consumed": 100,
+  "pop": 100
+}

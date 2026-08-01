@@ -1,0 +1,25 @@
+{
+  "formula": "r = z_nad + margin * (z_nad - z_ideal)",
+  "margin": 0.1,
+  "basis": "exact Pareto front only (run-independent)",
+  "z_ideal": [
+    2.985069968985954e-09,
+    6.0,
+    9.0
+  ],
+  "z_nad": [
+    0.66232,
+    217.0,
+    147.0
+  ],
+  "ref_point": [
+    0.728551999701493,
+    238.1,
+    160.8
+  ],
+  "HV_star": 24193.823685372037,
+  "n_front": 578,
+  "n_space": 34300,
+  "hv_gap_definition": "HV_gap(A) = (HV(P*;r) - HV({f in A : f <= r}; r)) / HV(P*;r)",
+  "note": "Ler SEMPRE a precisao completa. Difere da referencia da Tabela 6 do manuscrito (uniao com arquivos finais): o lado DMS-SI-Mix tem de ser recalculado nesta referencia antes de qualquer tabela conjunta."
+}

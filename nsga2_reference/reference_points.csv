@@ -1,0 +1,4 @@
+variant,n_new,exact_recovered,recall,precision,igd,source
+Fixed,4696,561,0.9706,0.9894,0.069,"DMS-SI-Mix manuscript, Table 6"
+CC-DNR,6168,575,0.9948,0.9965,0.0112,"DMS-SI-Mix manuscript, Table 6"
+Full,6611,575,0.9948,0.9965,0.0112,"DMS-SI-Mix manuscript, Table 6"

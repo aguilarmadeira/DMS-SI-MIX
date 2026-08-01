@@ -1,7 +1,10 @@
 # ---------------------------------------------------------------------
-# SOLVER — excluded until v1.1.0 (published on acceptance).
-# The v1.0.0 release contains data, configurations, results and
-# validation scripts only. Remove this block when adding the solver.
+# SOLVER — excluded until v2.0.0 (published on acceptance).
+# v1.0.0 contains data, configurations, results and validation scripts.
+# v1.1.0 adds the external mixed-variable NSGA-II reference point
+# (nsga2_reference/), which is Python and carries no embargo.
+# The MATLAB solver is still excluded here; remove this block when
+# adding it in v2.0.0.
 # ---------------------------------------------------------------------
 dms_si_mix.m
 dms_si_mix_*.m

@@ -11,23 +11,30 @@ Verify a single file, e.g. on Linux/macOS:
 or on Windows PowerShell:
     Get-FileHash -Algorithm SHA256 data\MORAP_NM\<file>
 
-Files: 125   Total size: 41421565 bytes
+Files: 178   Total size: 42431803 bytes
 ====================================================================================================
 
-aa2a3105160fe480094e8f2efff0f6274cf368ff7e040a4bbb8b2e57808cefb1           950  .gitignore                                              
+c960031449d888156112b3927a041bed445e28da4065f6ecd46cca7a68fb7678          1107  .gitignore                                              
 1c65aac099538047c30b54a913c638d3e9c433f7e16f6d31ff55ad7e5e006ed7          1628  B3_final_manifest.txt                                   
-788f54cecee8bb4aa67f5174ec53ab04e087ab8c63a965ca97962f16aa9688df          1260  CITATION.cff                                            
+7077f1c213520eb2fc3f6b8145f825afc5f8692ebb2491b8e044791f005d505e          1824  CITATION.cff                                            
 d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744         17023  LICENSE                                                 
-536cd120e9c5764fcf560f23489c0f23d18cd9c4eb44df8c2b3785dda1e2a101          3906  README.md                                               
+f59dd5038e9fd1038b5ab8a58812454a5cd3e14bb5170eb785f46005c636b9a5          6126  README.md                                               
 fd7d4b5e9d0f1b66c3618a0419f4f21c8403483c7a2235c79941c90194939129          2864  b3_make_manifest.m                                      
-4decd80f1edd687d84864f8b5736a2c4fe0c45e2d14ebae6b8c9def257b008c6          1325  configurations/README.md                                
+676daad083a7e64ada930a0d84fcd5ca1d91c016243d9dd7d64dbf54f7793720          2178  configurations/README.md                                
 77ebceaf12092ca78e423c26daf45d695abc319cac8a1b26e8d4c1cdf542d10e        167356  configurations/b3_dnr_covering_cycles.mat               
 37c29d209915e2715cf07a577ca4d53b914d9d8ddf2c291c1bbee31265390770        167356  configurations/b3_dnr_identity.mat                      
 698d0cfec3f1d0ffd95cb9c7b6623fdae67877706a1659d79001af1d8713eb77        167356  configurations/b3_dnr_sobol_rank.mat                    
+a9d3943dbb9e9719627ce6be5eb03b243472bb08a4b59c87efa094bd683ffffd          8848  configurations/parameters_B2_cc_dnr.m                   
+7f9a714df780d28391625bc96c1ed3705799363eca5b40cfa0712af4ce320f8e          9096  configurations/parameters_B2_cc_static.m                
+dfdff0b4cb62b593c1be9032b31f7c65fd167c5998762c289073566b227e65d7          8900  configurations/parameters_B2_fixed.m                    
+0d86f0920fc6b113ae3f73336aee70aaeb46527e15c7660233079a05537ebc4e          8970  configurations/parameters_B2_full.m                     
+35be10e17cd89f7ded8bc21218e378e845545a5fcac8928ec7c8915e02fb62b7          8860  configurations/parameters_MORAP_cc_dnr.m                
+a44a3c5c7015d52d39f3e6e91dee65675aa381b0123c47c6ad0779bdd8f8c5bc          8840  configurations/parameters_MORAP_fixed.m                 
+2bfdcaf8e30c2f0007b86298856fe18016cc1445b8904772b349905324deaa59          8928  configurations/parameters_MORAP_full.m                  
 80d69b63107d3975d880b8b5f0e1603cfbc67bb4e944eb74cf39cbea2f0f0ec7          5548  configurations/parameters_dms.m                         
 12b9e4dd605f28480b7005c6a85f2bc370d88a1e13044c396686c98e48756439          5550  configurations/parameters_dms_si.m                      
 b841cc54832f9598ce9e668d8830a738d49a3edc4ea3e54306f4b35a6de163fa          8187  configurations/parameters_dms_si_mix.m                  
-f94f687bd519c83bca37e57fe154ee94c4c957e00bd6fc9eb46a3f21886cc009           680  data/B2/README.md                                       
+252c9ef5725a69afe243a2268ec7f31b57f917fa42b26ba21b3a4258e4c8e0b0          2172  data/B2/README.md                                       
 a2b37d727dafe7d9cc6c717109a49532a8ab7a68ddd4c264c0cce30769f80da8          4973  data/MORAP_NM/MORAP_NM_data_freeze.md                   
 c86d59d9bd21b56e402bd2538952f7eb3ffbeceeff69d8a5a4ede915cb785281          1547  data/MORAP_NM/README.md                                 
 60863cbd8bd9180284eb29fcbd297ccb20048d9ee42191c7ace74f61975f8338          3502  data/MORAP_NM/enumerate_morap_nm.m                      
@@ -36,6 +43,52 @@ cd668cb13fa7e96e371dad4cef0e2ed9e0d6d9437e5a7008513be99550a0ca22          3368  
 ede8095fa8c972f49ad9b61d2c5609d2120f9a2c48953963e33ba223437440ca         19719  data/MORAP_NM/morap_nm_exact_front.csv                  
 b6ebdd1b9b65c6a334632bbabac6d3be0edf49086d3eff89b28bcc457b3f6cec          3259  make_manifest.py                                        
 407035e87285ce92340c350a82162a14c825e44e5ee12abb850eacb882e4f6fd           264  md5file.m                                               
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855             0  nsga2_reference/DEFINITIVE_DONE                         
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855             0  nsga2_reference/FOLLOWUP_DONE                           
+f28f5ce5333c9b5fa66f786db764209e8a157793ebb4e341657800c91f10f3ed         52607  nsga2_reference/Fig_MORAP_NM_definitive.pdf             
+0cfb2f6f0b8dbca13a5f36f554e97854faf1c7307622486f57011d8a6e3e55f2          4612  nsga2_reference/MANIFEST_nsga2.txt                      
+453b27d806fc4b28dfdb8525efbc3f80c3d3f009feb9059c41d2178ef8deb78e          7841  nsga2_reference/README.md                               
+49cf32ef38c7440e1c8b580ec02692cfd0d8c234e48d365edb36c04556d26cc5          6629  nsga2_reference/aggregate_definitive.py                 
+1b5ac03cea61b48a43f64e53b1efc274830ac074d258b80e076c74af7d8c90c9          7598  nsga2_reference/audit_definitive.py                     
+3ac70c84ecb3de7af46c1a002f02792bacc6686bf11a674f54462ed47fdba8a1          1736  nsga2_reference/audit_initial.py                        
+75c72f021ea883f6f1f9a7098e8c99f2e534574da4ac1d3cb7c8c0bb1e382834         87609  nsga2_reference/curves_all.json                         
+a116b29f39d48a9828016cebf34f0486c7170a399e9a2c1eb53c7245990c7845         75747  nsga2_reference/curves_halton_100.jsonl                 
+224754c788e3c56a087427735817184569c67227fbc7620d01d686f0eb250359         75796  nsga2_reference/curves_halton_50.jsonl                  
+bad3abd92c86b6cdf8a60f2a3963597520f4d4c3242d7860d5ee15592920fe13         75771  nsga2_reference/curves_paired_100.jsonl                 
+d7633727040d19fd0ec9d12fe45aecf74900aa41639da3240195f04129f01664         75793  nsga2_reference/curves_paired_50.jsonl                  
+65a2aaf3d6a376e1a9b373f5cf92405cbe33d66bbe790685165debccdb4aa8f1         75770  nsga2_reference/curves_rand_100.jsonl                   
+fcf1f3392676346f52debef1ba1cdea5f8a2d863c9baa8954e485e88c1f96dd6         74030  nsga2_reference/curves_rand_20.jsonl                    
+b4f705d1a291f7052e4fb9194229be06c894fd9ca66a3dc55524b8726fe41be5          6217  nsga2_reference/curves_rand_200.json                    
+be4c823f6fdaa038109e04106121d3454c1ad733669183b54e1b7b34eca59754          6225  nsga2_reference/curves_rand_50.json                     
+386142bc70ba70192f941e3e1bb85724a4a213fc80a7ea2515531121b4c5ccf9          6156  nsga2_reference/curves_rand_600.json                    
+f8bfb99fffe4879d2bc5a1a642f8a94ac8b54467c052789319db1eb20de93d4f         12484  nsga2_reference/definitive.log                          
+20b81232322c4ea6c36ca7695c0296a9b86ca7c04ee7976b7c1f75c1c140cdd4         20264  nsga2_reference/exact_front.npz                         
+96549394f4e5d7b101435733f639e080e687b793efd1376e09033d3570e2703d           684  nsga2_reference/hv_reference.json                       
+e43bda615e8ca4e7becdde8c519530fef1ac3e1c47f9df238434c3b496d63a19          4170  nsga2_reference/init_audit.csv                          
+805ec2cad8cf00fa9d5388721bf41f3923b005a7c03be7343d8a1e04d60b2b50           650  nsga2_reference/init_control.csv                        
+e3c7a96ba894f1988117bfcea610ed06ba7f8b01f91d092b7b7f228ddfd224fe           183  nsga2_reference/init_design_100.json                    
+983c765b5cb715eb1b447e7b8cf1da88d8928dad8615381b1ce749a9173aaa7e           178  nsga2_reference/init_design_50.json                     
+8615485221a273df928c3573e883ea13a0e8b4a210e750f8325bd4e8a1cadbb2          3362  nsga2_reference/make_figure_definitive.py               
+20eb14bb58fecb191c56c3a5cc978da5760984453092f1f3072a7695a16993c5          2947  nsga2_reference/make_package.py                         
+cc8b29e920e3a1824ff9492193ba3d9258cd8a918e643951ad03fde4e811f03e         14717  nsga2_reference/nsga2_morap_v3.py                       
+7a81f7d511171b85e3c1affe7dd5eb6f68fd3877c5db8d821554de228ba30e28           649  nsga2_reference/oracle_envelope.csv                     
+49e05418aaa668687954874738030869ce004f31fc176bff8dae15f3c43c56e7          2988  nsga2_reference/recompute_dms_hv.py                     
+5188f49ed9ab4a400580ac0e0ab51b2486c6d13794f1add52041bf02dc62c4d7           268  nsga2_reference/reference_points.csv                    
+ad26ba214e2d47f1b6c9e0477ab625e36c034ebfe7be15f6a9dc249fcb0f4cce         22515  nsga2_reference/results_halton_100.csv                  
+86e666367c03d6f3fb4d8f4dcfadd9d5f267293b07829a8b65992eb51f879eef         22636  nsga2_reference/results_halton_50.csv                   
+1068ef6edace583a1acae78dbd0c71b6666b59e38b60ecd229f8ba7592453d29         22496  nsga2_reference/results_paired_100.csv                  
+61858226d794ecddd7011937381c68d27319186ed0800e36d66537943babbcd5         22674  nsga2_reference/results_paired_50.csv                   
+645ef0695b012243c775900689da90c7aef2c2a9227a15c6ce7f23b2ac0b5922         22488  nsga2_reference/results_rand_100.csv                    
+e6f9ff60eb01916f934ba8a5ea0c8136a8b4726ccfe8fda782e3c2ca545a5a45         22114  nsga2_reference/results_rand_100_PREPATCH.csv           
+9348b764e84a1e4e3ad471724426bf33df6adfe1436a4a4960affa1ca6d952a6         19464  nsga2_reference/results_rand_20.csv                     
+7fc3cfd2294dec23a5e0fd43a2ba1751ff66def90aa3fb5f6de2fc03789b97c1         22402  nsga2_reference/results_rand_200.csv                    
+61858226d794ecddd7011937381c68d27319186ed0800e36d66537943babbcd5         22674  nsga2_reference/results_rand_50.csv                     
+18a091f4b7fbe32dd2663379b87ac2c9801604e1d339a2329a0486e37fa08e98         22311  nsga2_reference/results_rand_600.csv                    
+19b701526ed7724177f3d7427408ef97dca0522c1d5f23c14bee82b91f35e421           589  nsga2_reference/run_definitive.sh                       
+050df2c44d099b94935f344bdd7ab53e80189821110eb7ef6293cea31e0b09b2           646  nsga2_reference/run_followup.sh                         
+7b7687e693ff1e228313a1610269f4a91f785f1e20a728cab50090cc5aef5779           578  nsga2_reference/run_remaining.sh                        
+ed303cac7f4e1a08da55cd7c8991058214ea7bb46afa28e9860ce300653d3598         11347  nsga2_reference/summary_definitive.csv                  
+0f9e190479af680ab011bc7ec5791072f7bac3b12d343b4cb9338f25af104d09          1213  nsga2_reference/verify_rerun_100.py                     
 4fc15f478510cca3ce7903696e961b9dedfc67a6ab53e344400daf282e5c6d54          2851  results/archives/README.md                              
 39ddf185e3c4d0f75b53bfd0a7f56175c951d93ee3641c320f2bc4cd35b7f337        352177  results/archives/b2_default/b2_DPAM1_mix_cc_dnr.mat     
 fea890b49d5dc129e21175527b04d3f6133d3540cdc4a8bcc690e35bd6fd6234        275120  results/archives/b2_default/b2_DPAM1_mix_cc_static.mat  
@@ -118,7 +171,7 @@ ab8ef500f034da6950ed26042ad790bd68a92aea419bb4179fe161c228ad3547        167556  
 c48bf0838a1e238e05994d1bbfa59881f2aa1321e9f42bc8326697007d4fc5ad        167659  results/archives/morap_nm/pilot_fixed_run2.mat          
 da5828e49e3ea417c6970daad80d03c5634eb17dea11474df53c8e149beb8631        173831  results/archives/morap_nm/pilot_fixed_run3.mat          
 b380e7338f18408684365c9b5cdda29c70c842a860c225075a19f462bd815a19          1748  results/logs/README.md                                  
-a6698e4e40d59c8795f7b148f0c388d65240a18fe638814781022cfd380f8908           920  results/metrics/README.md                               
+b77908e730f73265be76aeb0223c77c4461c8b1b641a09f6cc6c462b8abb743b          2861  results/metrics/README.md                               
 b216a9e05ffd9d5a90579c71ae443cd1344cd254355bb46b4d2807755491ce9d           607  results/metrics/b2_decomposition.csv                    
 48ee867f4a9b4ab33607dd2f71c456bda389c3d5fad5c58b669ed209591ac864          5221  results/metrics/b2_effect_decomposition.m               
 3e3a3c04a967764b8c4697522d062c4fe58d78eed5d4431e56e2d79efc280464          2096  results/metrics/b2_init_sensitivity.csv                 
@@ -137,5 +190,5 @@ e61cef5566711d6f152dde9b844b587ec6386ad662cf62e4f9afddc142f3a869          3532  
 3ee1f86996119c30c82cf63c222b1832afef25ae2424d1850a6817c98ee4bcb7          1790  results/metrics/paretodominance.m                       
 ca5d666d5410d86b9427988564ddab8facf12ec830123b1684bead90fd12124b          5468  results/metrics/pilot_metrics_morap_nm.m                
 3849ebe5ff56504954278d97fb8f48b106e3f1c3b477dfca117e317e38c90fd1          1963  results/metrics/ref_front_analytical.m                  
-dc1589d375e724d93173ab5dab3ebfb23f1a5c1f4a4333db54d756cc5b83e54a          2662  supplementary/INDEX.md                                  
-1b4ead00ea4ebe28eac842448e93e05afa9eb397634dee1ab139ceb71793cd7e           328  supplementary/README.md                                 
+6a85fc68283dc86cd4af301d29478940bdb0beb16bdc5d9b7af2c8e6d2844670          3166  supplementary/INDEX.md                                  
+fa5288b15f19077f7665a4b853363cd730f381cfac5986af5771b0e12f56e795           565  supplementary/README.md                                 
