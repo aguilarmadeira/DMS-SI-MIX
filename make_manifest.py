@@ -23,10 +23,10 @@ MATLAB_VERSION = "R2025b (25.2.0.2998904), PCWIN64"
 CODE_REVISION = (
     "dms_si_mix.m, 101251 bytes, "
     "SHA-256 196babbe7d1e8aebc10f0b765b964881d878a538921b89a9c83112c31d1b9c04 "
-    "(not included in v1.0.0; published in v1.1.0 — this hash identifies the exact "
-    "solver revision that produced the reported runs)"
+    "(not included in v1.0.0 or v1.1.0; published in v2.0.0 — this hash identifies "
+    "the exact solver revision that produced the reported runs)"
 )
-RELEASE_VERSION = "1.0.0"
+RELEASE_VERSION = "1.1.0"
 
 SKIP_DIRS = {".git", ".github", "__pycache__", ".ipynb_checkpoints"}
 SKIP_FILES = {"MANIFEST.txt"}
